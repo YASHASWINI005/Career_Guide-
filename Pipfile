@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==4.1.4"
+asgiref = "==3.5.2"
+sqlparse = "==0.4.3"
+django-cors-headers = "*"
+openai = "*"
+
+[dev-packages]
+autopep8 = "*"
+
+[requires]
+python_version = "3"

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %} Result | Careerguide {% endblock %}
+
+{% block link %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'assessment/css/result.css' %}">
+{% endblock %}
+
+
+{% block body %}
+{% autoescape off %}
+{{assessment}}
+{% endautoescape %}
+{% endblock %}
