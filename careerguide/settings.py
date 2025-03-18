@@ -143,5 +143,5 @@ LOGIN_REDIRECT_URL = '/dashboard'
 LOGOUT_REDIRECT_URL = '/login'
 
 # Add this line for Gemini AI
-#GEMINI_API_KEY = env('GEMINI_API_KEY', default='AIzaSyC5XKWKWwUKfyVB9vX9xIjXGLyLNhnPaYI')
+#GEMINI_API_KEY = env('GEMINI_API_KEY', default="key"
 GEMINI_API_KEY = env('GEMINI_API_KEY')
